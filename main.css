@@ -1,0 +1,71 @@
+.center {
+  text-align: center;
+  }
+body {
+  background: no-repeat linear-gradient(rgb(186, 253, 255),rgb(255, 255, 169),rgba(253, 210, 217, 0.788),white);
+  padding: 0;
+}
+h1 {
+  color: #000000;
+  text-shadow: 2px 2px #8f8f8f4f;
+}
+h3 {
+  color: #5c5c5cb7;
+}
+h4 {
+  color: #868686;
+  padding: 20px 0 0 0;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  background-color: white;
+}
+img {
+  display: inline;
+  width: 200px;
+  height: 70px;
+}
+#footer {
+  width: 100%;
+  border-top: solid 2px rgb(202, 202, 202);
+  background-color: white;
+  position: fixed;
+  bottom: 0;
+}
+#parent-input {
+  width: 160px;
+  margin: 20px auto;
+}
+#player-input {
+  width: 160px;
+  height: 160px;
+  font-size: 60px;
+  border-radius: 50%;
+  text-align: center;
+}
+#submit {
+  width: 60px;
+  height: 60px;
+  margin: 10px auto;
+  border-radius: 50%;
+  background-color: #bbe20d;
+  color: white;
+  border: none;
+  margin-left: 10px;
+  font-size: 15px;
+  text-align: center;
+  position: relative;
+  bottom: 60px;
+  left: 60px;
+}
+.guess {
+  display: inline;
+  border: #b4b4b460 1px solid;
+  border-radius: 8px;
+  padding: 5px 20px;
+  margin: 5px;
+  font-size: 2em;
+}
