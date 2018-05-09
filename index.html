@@ -2,13 +2,11 @@
 <html lang="en">
   <head>
     <title>Guessing Game</title>
-
     <!-- Bootstrap and CSS here-->
     <link rel="stylesheet" href='https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css'>
     <link rel='stylesheet' type='text/css' href='main.css'>
   </head>
   <body>
-
     <div id='app' class='container center'>
 
       <div id='headers'>
@@ -23,22 +21,23 @@
           <input id='player-input' placeholder='#' maxlength='3'>
           <button id='submit' class='btn btn-primary'>Go!</button>
         </div>
-
+        <div id='msg'>
+          <h2 id='alert'><h2>
+        </div>
         <div id='guesses'>
           <!-- unordered list of guesses -->
           <ul>
-            <li class='guess'>-</li>
-            <li class='guess'>-</li>
-            <li class='guess'>-</li>
-            <li class='guess'>-</li>
-            <li class='guess'>-</li>
+            <li class='guess'></li>
+            <li class='guess'></li>
+            <li class='guess'></li>
+            <li class='guess'></li>
+            <li class='guess'></li>
           </ul>
         </div>
-
         <div id="menu-btns">
           <!-- reset and hint buttons -->
-          <button class='btn btn-danger btn-sm'>Reset</button>
-          <button class='btn btn-info btn-sm'>Hint</button>
+          <button id='reset' class='btn btn-danger btn-sm'>Reset</button>
+          <button id='hint' class='btn btn-info btn-sm'>Hint</button>
         </div>
       </div>
     </div>
@@ -62,6 +61,6 @@
 
         </div>
     </div>
-
+    <script src='app.js'></script>
   </body>
 </html>

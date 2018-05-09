@@ -16,6 +16,16 @@ h4 {
   color: #868686;
   padding: 20px 0 0 0;
 }
+#alert {
+  position: relative;
+  bottom: 40px;
+}
+.alert {
+  color: red;
+  font-size: 40px;
+  text-align: center;
+  margin: 100px 100px;
+}
 ul {
   list-style: none;
   padding: 0;
@@ -68,4 +78,5 @@ img {
   padding: 5px 20px;
   margin: 5px;
   font-size: 2em;
+  box-shadow: 3px 5px #3030302d;
 }
