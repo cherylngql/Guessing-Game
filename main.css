@@ -8,6 +8,7 @@ body {
 h1 {
   color: #000000;
   text-shadow: 2px 2px #8f8f8f4f;
+  margin-top: 100px;
 }
 h3 {
   color: #5c5c5cb7;
@@ -79,4 +80,8 @@ img {
   margin: 5px;
   font-size: 2em;
   box-shadow: 3px 5px #3030302d;
+}
+
+#answer {
+  display: none;
 }
