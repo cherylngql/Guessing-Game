@@ -32,6 +32,8 @@ $('document').ready(function() {
     $('h3').text('Guess a number between 1 - 100!')
     $('.guess').text('');
     $('#hint, #submit').prop("disabled", false);
+    $('#answer').hide();
+    $('#hint').show();
   });
   $('#hint').on('click', function() {
     var hint = game.provideHint();
