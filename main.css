@@ -2,20 +2,39 @@
   text-align: center;
   }
 body {
-  background: no-repeat linear-gradient(rgb(186, 253, 255),rgb(255, 255, 169),rgba(253, 210, 217, 0.788),white);
-  padding: 0;
+  background: linear-gradient(rgb(186, 253, 255),rgb(255, 255, 169),rgba(253, 210, 217, 0.788), rgb(200, 200, 255));
+  height: 100%;
+  padding-top: 50px;
+  margin-bottom: 100px;
+}
+#headers {
+  width: 575px;
+}
+#app {
+  background: repeat rgba(255, 255, 255, 0.6);
+  width: 575px;
+  margin-bottom: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+#main {
+  padding-bottom: 50px;
+  width: 575px;
 }
 h1 {
+  width: 100%;
   color: #000000;
   text-shadow: 2px 2px #8f8f8f4f;
-  margin-top: 100px;
+  margin-top: 10px 0;
+  padding-top: 50px;
 }
 h3 {
   color: #5c5c5cb7;
+  padding-top: 10px;
 }
 h4 {
   color: #868686;
   padding: 20px 0 0 0;
+  font-size: 2.5vw;
 }
 #alert {
   position: relative;
@@ -35,20 +54,30 @@ li {
   background-color: white;
 }
 img {
-  display: inline;
-  width: 200px;
-  height: 70px;
+  display: inline-block;
+}
+#fullstack {
+  width: 26vw;
+  height: 8vw;
+}
+#grace {
+  height: 5.5vw;
+  width: 26vw;
+  margin-top: 2%;
 }
 #footer {
   width: 100%;
+  height: 9vw;
   border-top: solid 2px rgb(202, 202, 202);
   background-color: white;
   position: fixed;
   bottom: 0;
+  margin: 0;
 }
 #parent-input {
   width: 160px;
-  margin: 20px auto;
+  margin: 15px auto;
+  padding-bottom: 0px;
 }
 #player-input {
   width: 160px;
@@ -60,7 +89,7 @@ img {
 #submit {
   width: 60px;
   height: 60px;
-  margin: 10px auto;
+  margin: 0px auto;
   border-radius: 50%;
   background-color: #bbe20d;
   color: white;
@@ -84,4 +113,62 @@ img {
 
 #answer {
   display: none;
+}
+
+@media (max-width: 575px) {
+  #main, #app, body, #headers {
+    width: 100%;
+    height: 100%;
+  }
+  body, #app {
+    padding-bottom: 0px;
+    margin-bottom: 50px;
+  }
+  #fullstack {
+    width: 40%;
+    height: 100%;
+  }
+  #grace {
+    width: 40%;
+    height: 80%;
+    margin-top: 2%;
+  }
+  #footer {
+    width: 100%;
+    height: 30vw;
+    border-top: solid 2px rgb(202, 202, 202);
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+  }
+  h4 {
+    padding: 0 0 0 0;
+    font-size: 2.5vw;
+  }
+  h3 {
+    color: #5c5c5cb7;
+    font-size: 23px;
+  }
+  h1 {
+    font-size: 32px;
+  }
+}
+
+@media (min-width: 900px) {
+  #footer {
+    width: 100%;
+    height: 82px;
+  }
+  #fullstack {
+    width: 234px;
+    height: 72px;
+  }
+  #grace {
+    width: 234px;
+    height: 49px;
+    margin-top: 2%;
+  }
+  h4 {
+    font-size: 23px;
+  }
 }
